@@ -26,6 +26,6 @@ struct PokemonSprites: Codable {
   var image: String
 
   enum CodingKeys: String, CodingKey {
-    case image = "back_default"
+    case image = "front_default"
   }
 }
